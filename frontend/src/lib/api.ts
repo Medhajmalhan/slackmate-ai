@@ -1,5 +1,5 @@
 // lib/api.ts
-const BASE_URL = "http://127.0.0.1:8000"; // Your FastAPI server
+const BASE_URL = "https://slackmate-backend.onrender.com"; // Your FastAPI server
 
 export async function fetchSummary() {
   const res = await fetch(`${BASE_URL}/summary`);
