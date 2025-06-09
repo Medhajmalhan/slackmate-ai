@@ -120,7 +120,6 @@ Why We Didn’t Use Real-Time Slack API
 | ✅ Notifications / Nudges          | Alert when Gary misses a task or skips a meeting                           |
 | ✅ Agent Collaboration Layer       | Share context or memory across agents                                      |
 | ✅ User Profiles                   | Support multiple employees, their data streams, and roles                  |
-| ✅ Check filter in todos           | store todos in database and when selected on dashboard, it will not appear again as the iscompleted field in database turns true|
 
 
 What the MVP Does (And Why)
