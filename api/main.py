@@ -17,7 +17,7 @@ app = FastAPI()
 # Enable CORS for frontend dev
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Replace with actual domain in production
+    allow_origins=["https://slackmate-frontend.onrender.com"],  # Replace with actual domain in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
